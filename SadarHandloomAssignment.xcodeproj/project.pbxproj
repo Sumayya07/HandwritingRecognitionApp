@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2938AF63BAF3C575884540 /* Pods_SadarHandloomAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F993C11C519EABC2374D0CA6 /* Pods_SadarHandloomAssignment.framework */; };
+		CAFB2AF02A32ED6600233FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB2AEF2A32ED6600233FE0 /* AppDelegate.swift */; };
+		CAFB2AF22A32ED6600233FE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB2AF12A32ED6600233FE0 /* SceneDelegate.swift */; };
+		CAFB2AF42A32ED6600233FE0 /* WritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB2AF32A32ED6600233FE0 /* WritingViewController.swift */; };
+		CAFB2AF72A32ED6600233FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFB2AF52A32ED6600233FE0 /* Main.storyboard */; };
+		CAFB2AF92A32ED6700233FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFB2AF82A32ED6700233FE0 /* Assets.xcassets */; };
+		CAFB2AFC2A32ED6700233FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFB2AFA2A32ED6700233FE0 /* LaunchScreen.storyboard */; };
+		CAFB2B062A344BBF00233FE0 /* WritingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB2B052A344BBF00233FE0 /* WritingCanvasView.swift */; };
+		CAFB2B082A34611B00233FE0 /* RecognitionCandidatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB2B072A34611B00233FE0 /* RecognitionCandidatesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FD7F4218A6532D502859AD7 /* Pods-SadarHandloomAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SadarHandloomAssignment.debug.xcconfig"; path = "Target Support Files/Pods-SadarHandloomAssignment/Pods-SadarHandloomAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		CAFB2AEC2A32ED6600233FE0 /* SadarHandloomAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SadarHandloomAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFB2AEF2A32ED6600233FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAFB2AF12A32ED6600233FE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAFB2AF32A32ED6600233FE0 /* WritingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingViewController.swift; sourceTree = "<group>"; };
+		CAFB2AF62A32ED6600233FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAFB2AF82A32ED6700233FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFB2AFB2A32ED6700233FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAFB2AFD2A32ED6700233FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFB2B052A344BBF00233FE0 /* WritingCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingCanvasView.swift; sourceTree = "<group>"; };
+		CAFB2B072A34611B00233FE0 /* RecognitionCandidatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionCandidatesView.swift; sourceTree = "<group>"; };
+		F993C11C519EABC2374D0CA6 /* Pods_SadarHandloomAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SadarHandloomAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD435022514E83968463FCCA /* Pods-SadarHandloomAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SadarHandloomAssignment.release.xcconfig"; path = "Target Support Files/Pods-SadarHandloomAssignment/Pods-SadarHandloomAssignment.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFB2AE92A32ED6600233FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2938AF63BAF3C575884540 /* Pods_SadarHandloomAssignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1CCA92F3CE23A948422EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F993C11C519EABC2374D0CA6 /* Pods_SadarHandloomAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B89432F7B0FE69B7D59908A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FD7F4218A6532D502859AD7 /* Pods-SadarHandloomAssignment.debug.xcconfig */,
+				FD435022514E83968463FCCA /* Pods-SadarHandloomAssignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CAFB2AE32A32ED6600233FE0 = {
+			isa = PBXGroup;
+			children = (
+				CAFB2AEE2A32ED6600233FE0 /* SadarHandloomAssignment */,
+				CAFB2AED2A32ED6600233FE0 /* Products */,
+				B89432F7B0FE69B7D59908A1 /* Pods */,
+				0D1CCA92F3CE23A948422EAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFB2AED2A32ED6600233FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB2AEC2A32ED6600233FE0 /* SadarHandloomAssignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFB2AEE2A32ED6600233FE0 /* SadarHandloomAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB2AEF2A32ED6600233FE0 /* AppDelegate.swift */,
+				CAFB2AF12A32ED6600233FE0 /* SceneDelegate.swift */,
+				CAFB2AF32A32ED6600233FE0 /* WritingViewController.swift */,
+				CAFB2B052A344BBF00233FE0 /* WritingCanvasView.swift */,
+				CAFB2B072A34611B00233FE0 /* RecognitionCandidatesView.swift */,
+				CAFB2AF52A32ED6600233FE0 /* Main.storyboard */,
+				CAFB2AF82A32ED6700233FE0 /* Assets.xcassets */,
+				CAFB2AFA2A32ED6700233FE0 /* LaunchScreen.storyboard */,
+				CAFB2AFD2A32ED6700233FE0 /* Info.plist */,
+			);
+			path = SadarHandloomAssignment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFB2AEB2A32ED6600233FE0 /* SadarHandloomAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFB2B002A32ED6700233FE0 /* Build configuration list for PBXNativeTarget "SadarHandloomAssignment" */;
+			buildPhases = (
+				22CAAD112264DC39B2F833F2 /* [CP] Check Pods Manifest.lock */,
+				CAFB2AE82A32ED6600233FE0 /* Sources */,
+				CAFB2AE92A32ED6600233FE0 /* Frameworks */,
+				CAFB2AEA2A32ED6600233FE0 /* Resources */,
+				1BBDCF102F33DF7F5C155C81 /* [CP] Embed Pods Frameworks */,
+				160FD1A159DBC27EF41A92B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SadarHandloomAssignment;
+			productName = SadarHandloomAssignment;
+			productReference = CAFB2AEC2A32ED6600233FE0 /* SadarHandloomAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFB2AE42A32ED6600233FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CAFB2AEB2A32ED6600233FE0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CAFB2AE72A32ED6600233FE0 /* Build configuration list for PBXProject "SadarHandloomAssignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFB2AE32A32ED6600233FE0;
+			productRefGroup = CAFB2AED2A32ED6600233FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFB2AEB2A32ED6600233FE0 /* SadarHandloomAssignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFB2AEA2A32ED6600233FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFB2AFC2A32ED6700233FE0 /* LaunchScreen.storyboard in Resources */,
+				CAFB2AF92A32ED6700233FE0 /* Assets.xcassets in Resources */,
+				CAFB2AF72A32ED6600233FE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160FD1A159DBC27EF41A92B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SadarHandloomAssignment/Pods-SadarHandloomAssignment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SadarHandloomAssignment/Pods-SadarHandloomAssignment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SadarHandloomAssignment/Pods-SadarHandloomAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BBDCF102F33DF7F5C155C81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SadarHandloomAssignment/Pods-SadarHandloomAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SadarHandloomAssignment/Pods-SadarHandloomAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SadarHandloomAssignment/Pods-SadarHandloomAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22CAAD112264DC39B2F833F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SadarHandloomAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFB2AE82A32ED6600233FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFB2AF42A32ED6600233FE0 /* WritingViewController.swift in Sources */,
+				CAFB2B062A344BBF00233FE0 /* WritingCanvasView.swift in Sources */,
+				CAFB2AF02A32ED6600233FE0 /* AppDelegate.swift in Sources */,
+				CAFB2AF22A32ED6600233FE0 /* SceneDelegate.swift in Sources */,
+				CAFB2B082A34611B00233FE0 /* RecognitionCandidatesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAFB2AF52A32ED6600233FE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFB2AF62A32ED6600233FE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAFB2AFA2A32ED6700233FE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFB2AFB2A32ED6700233FE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFB2AFE2A32ED6700233FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAFB2AFF2A32ED6700233FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFB2B012A32ED6700233FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD7F4218A6532D502859AD7 /* Pods-SadarHandloomAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SDANUXUBFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SadarHandloomAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumayya.SadarHandloomAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFB2B022A32ED6700233FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD435022514E83968463FCCA /* Pods-SadarHandloomAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SDANUXUBFX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SadarHandloomAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumayya.SadarHandloomAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFB2AE72A32ED6600233FE0 /* Build configuration list for PBXProject "SadarHandloomAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFB2AFE2A32ED6700233FE0 /* Debug */,
+				CAFB2AFF2A32ED6700233FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFB2B002A32ED6700233FE0 /* Build configuration list for PBXNativeTarget "SadarHandloomAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFB2B012A32ED6700233FE0 /* Debug */,
+				CAFB2B022A32ED6700233FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFB2AE42A32ED6600233FE0 /* Project object */;
+}
