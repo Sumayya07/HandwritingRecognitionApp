@@ -8,6 +8,12 @@
 import UIKit
 import MLKit
 
+// Declare the delegate protocol at the top of your file
+protocol WritingCanvasViewDelegate: AnyObject {
+    func didEndStroke(with strokes: [Stroke])
+    func didSelectRecognitionCandidate(_ candidate: String) // New delegate
+}
+
 class WritingCanvasView: UIView {
     // Touch attributes
     private var lastPoint = CGPoint.zero
@@ -23,6 +29,9 @@ class WritingCanvasView: UIView {
     private let strokeColor: UIColor = .black
     private let strokeLineWidth: CGFloat = 10.0
     private let strokePath = UIBezierPath()
+    
+    // Delegate
+    weak var delegate: WritingCanvasViewDelegate?
     
     // MLKit
     var recognizer: DigitalInkRecognizer?
@@ -107,6 +116,9 @@ class WritingCanvasView: UIView {
         strokes.append(Stroke(points: points))
         points = []
         
+        // Inform delegate of the end of the stroke
+        delegate?.didEndStroke(with: strokes)
+        
         doRecognition()
     }
     
@@ -153,12 +165,15 @@ class WritingCanvasView: UIView {
             }
         }
     }
+    
 }
 
 extension WritingCanvasView: RecognitionCandidatesViewDelegate {
     func recognitionCandidatesView(_ view: RecognitionCandidatesView, didSelectCandidate candidate: String) {
         clearCanvas()
         drawCandidateOnCanvas(candidate)
+        delegate?.didSelectRecognitionCandidate(candidate) // Inform the delegate about the selected candidate
+
     }
 }
 

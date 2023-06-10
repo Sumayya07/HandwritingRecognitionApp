@@ -44,21 +44,21 @@ class RecognitionCandidatesView: UIView {
     private func setupViews() {
         addSubview(titleLabel)
         addSubview(candidatesStackView)
-        
+
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         candidatesStackView.translatesAutoresizingMaskIntoConstraints = false
-        
+
         NSLayoutConstraint.activate([
-            titleLabel.topAnchor.constraint(equalTo: topAnchor),
-            titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
-            titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
-            
+            titleLabel.centerXAnchor.constraint(equalTo: centerXAnchor), // Centers horizontally
+            titleLabel.topAnchor.constraint(equalTo: topAnchor, constant: 20), // 20 points from the top, adjust as needed
+
             candidatesStackView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 10),
             candidatesStackView.leadingAnchor.constraint(equalTo: leadingAnchor),
             candidatesStackView.trailingAnchor.constraint(equalTo: trailingAnchor),
             candidatesStackView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
     }
+
     
     func displayRecognitionResult(_ title: String, candidates: [String]) {
         titleLabel.text = title
